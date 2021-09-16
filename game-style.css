@@ -1,0 +1,52 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #1abc9c;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: grey;
+  }
+
+  img{
+    background-color: transparent;
+    border: none;
+  }
+
+  .header {
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-size:5px;
+  }
+
+  /* #L, #R {
+    position:relative;
+} */
+
+
+  /* canvas{
+      border: black;
+      background-color: chartreuse;
+  } */
+  
+
+.circle-yellow {
+    background: yellow;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
